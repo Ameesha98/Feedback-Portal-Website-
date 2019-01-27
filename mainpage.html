@@ -1,0 +1,835 @@
+﻿<!DOCTYPE html>
+<meta charset="utf-8">
+	<title>Student feedback</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/fonts1.css">
+<link rel="stylesheet" href="css/animate1.css">
+
+<link rel="stylesheet" href="css/default1.css">
+<link rel="stylesheet" href="css/media-queries1.css">
+<link rel="stylesheet" href="css/prettyPhoto1.css">
+<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+	<script src="js/modernizr.js"></script>
+	<link rel="shortcut icon" href="favicon.png" >
+<script>
+//Array of images which you want to show: Use path you want.
+var images=new Array('images/slides/header-background.jpg','images/slides/1.png','images/slides/2.jpg','images/slides/3.jpg','images/slides/4.jpg');
+var nextimage=0;
+doSlideshow();
+
+function doSlideshow(){
+    if(nextimage>=images.length){nextimage=0;}
+    $('.header')
+    .css('background-image','url("'+images[nextimage++]+'")')
+    .fadeIn(500,function(){
+        setTimeout(doSlideshow,3000);
+    });
+}
+</script>
+</head>
+<body onload="doSlideshow()">
+   <header id="home"  class="header">
+      <nav id="nav-wrap">
+      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+  <li><a class="smoothscroll" href="#portfolio">Feedback</a></li>
+	         <li><a class="smoothscroll" href="#features">Suggestion</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Employee Speak</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact Us</a></li>
+           <li><a class="smoothscroll" href="#about">About</a></li>
+         </ul> 
+      </nav>
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline"><img src="images/CU_logo.png" height=100 width=70> CHITKARA FEEDBACK</h1>
+            <h3>Chitkara University has been founded by <span>Dr. Ashok Chitkara</span> and <span>Dr. Madhu Chitkara</span> who have been passionate teachers 
+for more than 40 years now.
+             Let's <a class="smoothscroll" href="#portfolio">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about Chitkara University</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.facebook.com/ChitkaraU"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/chitkarau"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/+chitkarauniversity"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/school/chitkara-university/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/chitkara.university/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#portfolio"><i class="icon-down-circle"></i></a>
+      </p>
+   </header> 
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>YOUR FEEDBACK MATTERS</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/infrafeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Infrastructure</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/facultyfeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Faculty</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/tqfeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Cafeteria</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/transportfeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Transport</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/hostelfeedback.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Accomodation</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/libraryfeedback.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Library</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/messfeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mess</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/currifeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Curriculum</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+  <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-09" title="">
+                        <img alt="" src="images/portfolio/medicalfeedback.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Medical Facilities</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+  <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-10" title="">
+                        <img alt="" src="images/portfolio/placefeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Placement</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+  <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-11" title="">
+                        <img alt="" src="images/portfolio/bankfeedback.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Bank</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+  <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-12" title="">
+                        <img alt="" src="images/portfolio/miscfeedback.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Miscellaneous</h5>
+                              <p>Feedback</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-infrafeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Infrastructure</h4>
+			      <p>The spacious, amphitheatre-style classrooms in the University provide the most conducive atmosphere for dynamic and focused discussions. They have been designed to bring together analysis with action and are augmented with integrated audio–visual teaching aids for lectures, presentations etc. Special sessions and classes are also held on business etiquettes, negotiation skills, effective communication, leadership, teamwork and analytical skills</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Infrastructure</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/kJhabsRT681UGWH32" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-facultyfeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Faculty</h4>
+			      <p>Chitkara University is a dream envisioned and realised by Dr Ashok K Chitkara and Dr Madhu Chitkara—two academicians dedicated to the mission of spreading education. Through their diligence and inspiring leadership, they have helped create a learning environment that represents a unique blend of distinguished faculty, brilliant students and proactive collaborations with industry.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Faculty</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/UALsOnkMnbBubxlN2" target="_new">Give Feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-tqfeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Cafeteria</h4>
+			      <p>A healthy mind can only reside in a healthy body. Hence, all cafeterias have menus that are designed by a team of professional dieticians, and offer nutritious and wholesome food to ensure a well-balanced diet. Fresh fruit juices, milkshakes, ice creams sundaes and even midnight snacks are available in these cafeteria.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Cafeteria</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/qKJwKM9D2q2jmjSn2" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-transportfeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Transport</h4>
+			      <p>Chitkara University, Punjab has made secure and safe arrangement of transport facility for students,
+staff & faculty. The transport facility is available from Chandigarh, Mohali, Kharar, Patiala, Derabassi,
+Panchkula, Ambala, Kalka, Zirakpur, Landran, Rajpura, Banur, Khanna, Sirhind, Doraha and Ludhina.
+All the buses reach the campus by 8:45 am (Approximately) and leave the Campus by 4:45 pm
+(Approximately) or as per scheduled activities / events in the University. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Transport</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/r3scdqtE46OVPum42" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/hostel.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Accomodation</h4>
+			      <p>At Chitkara University, you will be among the many students coming from all across the country to live in Chitkara residences, which come closest to being a home away from home.
+
+Separate facilities for boys and girls, caring wardens and tight security arrangements ensure a pleasant stay, allowing students to focus on academics. Internet access and subscriber trunk dialing (STD) facilities ensure close contact with family and friends outside. The common rooms are fully equipped with TV, indoor games and other recreation facilities.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Accomodation</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/JlSM0Cup9p1mvQTq1" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-libraryfeedback.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Library</h4>
+			      <p>The library services are the cornerstone of the education system at Chitkara University. The mission of our library services is to facilitate creation of new knowledge through acquisition, organization and dissemination of knowledge resources.
+The libraries at each of the campuses have spacious reading halls, periodical centres, group discussion rooms and online database browsing areas.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Library</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/YmShfx0M9lpDkLKc2" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-messfeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Mess</h4>
+			      <p>Chitkara University is a big educational institute engaged in providing food services at different locations to its students and employees.A Mess Committee is formed to assist in	
+smooth running of the students' mess. </p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Mess</span>
+</div>
+            <div class="link-box">
+               <a href="https://goo.gl/forms/asef0KSEBcNBOF752" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-currifeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Curriculum</h4>
+			      <p>The curriculum framework is the skeleton of the academic programs at Chitkara University . Before designing the curriculum, an extensive survey was done to understand our learners and their ideology and the generation to which they belong.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Curriculum</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/YvEl1yPYhHWZreik1" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 End -->
+ <div id="modal-09" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/med.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Medical Facilities</h4>
+			      <p>A healthy body makes for a healthy mind. In order to ensure your well-being, Chitkara University has tie- ups with renowned hospitals to take care of any kind of emergency. At CU, you will be covered by a comprehensive medical insurance to meet all kinds of exigencies.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Medical Facilities</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/Xe6a6myRD5IYLS2B3" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-09 End -->
+ <div id="modal-10" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-placefeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Placement</h4>
+			      <p>Since Inception, Chitkara University Has A Path Breaking Recruitment Record For Graduates From Various Academic Programs. We offer our students comprehensive opportunities to occupy themselves with questions around their career planning right from the beginning of their studies. A broadly diversified choice of career activities accompanies them during their studies and offers numerous networking opportunities with company representatives and alumni.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Placements</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/44WCorJlFuO9OEH63" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-10 End -->
+ <div id="modal-11" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/uco.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>Bank and ATMs</h4>
+			      <p>There are branches of two nationalized banks—Punjab National Bank (PNB) and UCO Bank—within the campus. These banks offer ATM facilities and locker facilities, besides other regular bank services.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Bank</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/4yO3yZxw7kZ6kT3z1" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-11 End -->
+ <div id="modal-12" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-miscfeedback.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Miscellaneous</h4>
+			      <p>Since inception, Chitkara University has been different. Our students have been different. So are our faculty, our academic strengths and our outlook on teaching and learning.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Chitkara, Miscellaneous</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://goo.gl/forms/A2pxZgZarRXKrqvO2" target="_new">Give feedback</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-12 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+   <section id='features' >
+
+      <div class="row feature design">
+
+         <div class="six columns right">
+            <h3>WE ARE LISTENING</h3>
+            <p>Thoughtful ideas are valued, respected and encouraged. The purpose of the idea box is to generate constructive ideas, suggestions, and brainstorms from you.Our aim is to help you achieve innovation excellence inside your own university by making innovation resources, answers, and best practices accessible for the greater good.
+Your ideas and suggestions are appreciated.We'd love to hear from you.
+            </p>
+         </div>
+         <div class="six columns feature-media left">
+<center><div style="background:#121212;color:white;font-size:22px;height:37px">Give us a suggestion</div></center>
+     <form method="post" action="insert.php">
+<textarea  id="mysugg" name="texta" rows=15 cols=58 placeholder="Make a difference, offer a suggestion.We really appreciate the time and efforts you have spent to share your insightful comments, which will be seriously considered and adequately implemented.
+It's these kind of ideas that we strive for to help us keep improving.Your voice matters."></textarea>
+<center><button style="background:#121212;color:white;height:48;width:100;font-size:20">SUBMIT</button><center>
+</form>
+         </div>
+      </div>
+
+      <div class="row feature responsive">
+
+         <div class="six columns left">
+            <h3>69th IPC 2017</h3>
+
+            <p>Indian Pharmaceutical Congress Association IPCA, is a federation of five National Pharmaceuticals Associations (IPA, IHPA, APTI, IPGA and AIDCOC) is the apex body of more than 25000 pharmacy professional members representing Pharmaceutical industry, Quality Control, Quality Assurance, Marketing, Research & Development, Regulatory, Academia and Hospital & Community Pharmacy. 
+            </p>
+         </div>
+
+         <div class="six columns feature-media right">
+            <video width="600" height="500" controls="controls" align="top" style="float:left">
+  <source src="images/69ipc.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+         </div>
+
+      </div>
+
+
+   </section> <!-- Homepage Hero end -->
+
+   <section id="testimonials">
+
+    <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full"><br>
+                <h1 class="h02">What People Say</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-01.gif" alt="Author image" class="testimonials__avatar">
+                    <p>I joined Chitkara University in 2008 after serving Country’s top Private Engineering institute i.e. BITS, Pilani after almost about 6 years. Due to some family compulsions, when I decided to quit BITS and join an institute close to my parental house, I was in big dilemma on question of which Institute to join. Fortunately, I got a chance to interact with the officials of Chitkara Educational Trust. I was so impressed with their down to Earth attitude and still maintaining the complete professionalism in every aspect of Education.
+Since my joining in 2008, there has been no looking back, neither for Chitkara University nor for my personal growth.</p>
+                    <div class="testimonials__author h06">
+                        DR. RAJNISH SHARMA 
+                        <span>DEAN – ACADEMICS</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-05.gif" alt="Author image" class="testimonials__avatar">
+                    <p>Joining the Chitkara team has been an unexpected boost in my career. I am very grateful for the opportunity provided to be part of the Chitkara team.
+
+There is a huge demand for healthcare professionals on one side and a big gap on the supply side for competent professionals. It is this gap that Chitkara through the Chitkara School of Health Sciences hopes to fulfill. The way it is being done with a partnership with Fortis healthcare shows a deep commitment to the desire to develop good quality professionals.
+I came from an organization which is world class and a Harvard case study, taught in all the major B-schools not just in India but in different parts of the world. However, I found I could adapt easily to the work environment here.With such a great brand name I am very conscious that while I am now a Chitkara team member, and even though I bring with me experience in the field of health care training, I must constantly endeavor to be worthy of the position bestowed on me. To this I continually strive.</p>
+                    <div class="testimonials__author h06">
+                       DR. PREETHI PRADHAN
+                        <span>DEAN – CHITKARA SCHOOL OF HEALTH SCIENCES</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-02.gif" alt="Author image" class="testimonials__avatar">
+                    <p>It has been an honour to be the part of the Chitkara University. I joined the Chitkara University three years back and the journey since then have been enriching every day. The University provides me excellent work environment, where I get a chance to enhance my skill-set every day. The University administration is very supportive and always pays attentions towards your requirement as a faculty member.
+The co-faculty members of the department are very supportive, and working with them is a matter of sheer delight. It is said that a person can give the best output when he is happy, and I feel the work atmosphere here is pleasant and congenial enough to keep me happy and vibrant. This is the place where you can share and implement your ideas.All in all, I am very much satisfied with my job and responsibilities.I’d always like to work for the Chitkara Unviersity.</p>
+                    <div class="testimonials__author h06">
+                      HITAKSHI DUTTA
+                        <span>ASSISTANT PROFESSOR – CSET</span>
+                    </div>
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials -->
+
+   </section>
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead" style="font-size:42px">Get in touch with us
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <form name="contactForm" id="contactForm" method="post">     			
+
+               <div class="form-field" >
+ 					   <input style="width:100%"  name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+               </div>
+
+               <div class="col-six tab-full">
+                 
+                 		<div class="form-field" >
+                 			<input style="width:100%" name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+                 		</div>		      			   
+		            </div>
+	            	<div class="col-six tab-full">	            
+	            		<div class="form-field">
+	            			<input style="width:100%" name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+	                  </div>		     				   
+		            </div>
+              
+                                         
+               <div class="form-field" >
+	              	<textarea style="width:100%" name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="100" required=""></textarea>
+	            </div> 
+
+               <div class="form-field">
+                  <button class="submitform" style="background:#121212;color:white">Submit</button>
+
+                  <div id="submit-loader">
+                     <div class="text-loader">Sending...</div>                             
+       			      <div class="s-loader">
+							  	<div class="bounce1"></div>
+							  	<div class="bounce2"></div>
+							  	<div class="bounce3"></div>
+							</div>
+						</div>
+               </div>
+
+      		</form> <!-- end form -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> There is some error</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address </h4>
+					   <p class="address">
+						CHITKARA UNIVERSITY(PUNJAB)<br>
+						    Chandigarh-Patiala National Highway<br>
+						   Punjab 140 401<br>
+					   </p>
+					<p class="address">
+						 CHANDIGARH INFORMATION CENTRE<br>
+						    SCO 160-161,Sector 9-C<br>
+						   Chandigarh 160 009<br>
+					   </p>
+
+				   </div>
+<div class="widget widget_contact">
+
+					   <h4>Contact </h4>
+					   <p class="address">
+						For more information,<br>
+give a miss call on<br>
+<b>1800 267 1999</b>
+					   </p>
+					<p class="address">
+						 Admission Helpline<br>
+						    <b>+91 9501105714 <br>
+						   +91 9501105715<br></b>
+					   </p>
+
+				   </div>
+
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+ <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/lastdiv1.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h1 style="color:white">About Us</h1>
+
+            <div style="float:right;-moz-column-count: 3; -webkit-column-count: 3;background-size:103% 100%"> 
+				
+						<br><h2 style="color:grey">EXPLORE</h2>
+						<ul style="list-style-type:none;margin:0;padding:0;overflow:hidden"><br>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/chitkara-educational-trust">Chitkara Educational Trust</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/overview/">Chitkara University, Punjab</a></li>
+							<li><a style="text-decoration:none;color:white" href="http://chitkarauniversity.edu.in/" target="_blank">Chitkara University, Himachal Pradesh</a></li>
+							<li><a style="text-decoration:none;color:white" href="http://www.chitkaraschool.in" target="_blank">Chitkara International School</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/international-collaborations/">Office of International Affairs</a></li>
+							<li><a style="text-decoration:none;color:white"  href="https://www.chitkara.edu.in/office-external-affairs/">Office of External Affairs</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/can/"  target="_blank">Chitkara Alumni Network</a></li>
+                            						<li><a style="text-decoration:none;color:white" href="http://curin.chitkara.edu.in/"  target="_blank">CURIN</a></li>
+							<li><a style="text-decoration:none;color:white" href="http://cuceed.org/"  target="_blank">CEED</a></li>
+						</ul><br><br><br><br><br><br><br><br>
+				<h2 style="color:grey">ADMISSIONS</h2>
+						<ul style="list-style-type:none;margin:0;padding:0;overflow:hidden"><br>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/" target="_blank">Downloadable Brochures</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/admission-helpline/" target="_blank">Important Contact Numbers</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/availability-forms/" target="_blank">Application Form Sale Outlets</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/admission-procedure/" target="_blank">Admission Procedure</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/fees-structure/" target="_blank">Fee Structure</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/international-students/" target="_blank">International Students</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/downloadforms/" target="_blank">Downloadable Forms &amp; Formats</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/admissions/frequently-asked-questions/" target="_blank">FAQ's</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/grievance-redressal/" target="blank" target="_blank">Grievance Redressal</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/pdf/NIRF-2018.zip" target="blank" target="_blank">NIRF-2018</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/pdf/NAD.jpg" target="blank" target="_blank">National Academic Repository(NAD)</a></li>
+                            						<li><a style="text-decoration:none;color:white" href="https://www.vidyalakshmi.co.in/" target="blank" target="_blank">www.vidyalakshmi.co.in</a></li>
+
+						</ul><br><br><br><br><br>
+			<h2 style="color:grey">OUR INSTITUTIONS</h2>
+						<ul style="list-style-type:none;margin:0;padding:0;overflow:hidden"><br>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/cbs" target="_blank">Business School</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/engineering" target="_blank">Engineering &amp; Technology</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/ccae/" target="_blank">Applied Engineering	</a></li>						
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/architecture" target="_blank">School of Planning &amp; Architecture</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/arts" target="_blank">School of Art and Design</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/sales-retail-marketing/" target="_blank">College of Sales & Retail Marketing</a></li>
+							<li><a style="text-decoration:none;color:white" href="http://bfsi.chitkara.edu.in/" target="_blank">School of Banking & Financial Services</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/ihm" target="_blank">College of Hotel Management</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/hospitality" target="_blank">School of Hospitality</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/culinary-arts/" target="_blank">School of Culinary Arts</a></li>		
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/pharmacy" target="_blank">College of Pharmacy</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/healthscience" target="_blank">School of Health Sciences</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/chitkara-school-of-mass-communication/" target="_blank">School of Mass Communication</a></li>
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/education" target="_blank">College of Education</a></li>												
+							<li><a style="text-decoration:none;color:white" href="https://www.chitkara.edu.in/polytechnic/" target="_blank">Chitkara Polytechnic</a></li>
+						</ul>
+
+				
+</div>
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.facebook.com/ChitkaraU"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/chitkarau"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://plus.google.com/+chitkarauniversity"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="https://www.linkedin.com/school/chitkara-university/"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://www.instagram.com/chitkara.university/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy;Made by Amanjot(1610991092) and Ameesha(1610991094)</li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+ <script src="js/jquery.fitvids.js"></script>
+   <script src="js/imagelightbox.js"></script>
+   <script src="js/jquery.prettyPhoto.js"></script>   
+   <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
