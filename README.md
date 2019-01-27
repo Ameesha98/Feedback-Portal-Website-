@@ -14,6 +14,6 @@ There is requirement of “efficient student feedback and solution system” in 
 * To enable students to contack the university authorities at just a click.
 * To enable them to gain more information about the university.
 
-#### References:
+#### Acknowledgements:
 
 A special thanks to www.styleshout.com for their layouts and ideas.
